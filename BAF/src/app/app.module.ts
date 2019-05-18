@@ -17,6 +17,8 @@ import { CopyrightComponent } from './footer/copyright/copyright.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
+import { BottomNavComponent } from './footer/bottom-nav/bottom-nav.component';
+import { ChatComponent } from './footer/chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { FooterComponent } from './footer/footer.component';
     CopyrightComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    BottomNavComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
