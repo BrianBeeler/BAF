@@ -39,15 +39,15 @@ export class IndustriesComponent implements OnInit {
       linkUrl: 'https://www.bigassfans.com/industries/fitness'
     },
     {
-      name: 'GOVORNMENT',
+      name: 'GOVERNMENT',
       message: 'There may be only two things that governments can agree on: comfort and energy savings. Whether in a library, office, courtroom, or millitary installation, Big Ass Fans and Lights control energy costs and enhance comfort and light quality.',
-      imageUrl: 'https://s3.amazonaws.com/ba-en-us/global/header-footer/industries/government.jpg)',
+      imageUrl: 'https://s3.amazonaws.com/ba-en-us/global/header-footer/industries/government.jpg',
       linkUrl: 'https://www.bigassfans.com/industries/government'
     },
     {
       name: 'INDUSTRIAL',
       message: 'Big Ass Fans and Lights are right at home in warehouses and manufacturing facilities. Whether you store, assemble, fabricate, wash or bottle your product, our products have the mettle to stand up to the toughest environments.',
-      imageUrl: 'https://s3.amazonaws.com/ba-en-us/global/header-footer/industries/government.jpg',
+      imageUrl: 'https://s3.amazonaws.com/ba-en-us/global/header-footer/industries/industrial.jpg',
       linkUrl: 'https://www.bigassfans.com/industries/industrial'
 
     },
