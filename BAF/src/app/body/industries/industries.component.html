@@ -1,4 +1,6 @@
-<div ng-repeat="industry in industries">
-  <h3>Heading</h3>
-  <img/> // Bg Image
+<div>
+  <div *ngFor="let industry of industries;">
+    <p>{{industry.name}}</p>
+
+  </div>
 </div>
