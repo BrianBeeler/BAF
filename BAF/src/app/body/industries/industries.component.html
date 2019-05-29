@@ -1,6 +1,10 @@
 <div>
   <div *ngFor="let industry of industries;">
-    <p>{{industry.name}}</p>
-
+    <h3>{{industry.name}}</h3>
+    <div>
+      <img [src]="industry.imageUrl">
+    </div>
+    <p>{{industry.message}}</p>
+    <button>Learn More</button>
   </div>
 </div>
