@@ -1,12 +1,25 @@
 <ul class="mini-nav">
   <li>888-604-3714</li>
-  <li>Company</li>
-  <li>Support</li>
-  <li><img src='assets/glass.png' /></li>
-  <li><img src='assets/USpic.png' /></li>
+  <li (mousenter)="openMenu('company')" (mouseleave)="closeMenu('company')">Company</li>
+  <li (mousenter)="openMenu('support')" (mouseleave)="closeMenu('support')">Support</li>
 </ul>
 
+<!--To Do: Dropdown Menu-->
 
+<!--<ul class="company-list" [hidden]="!companyListOpen">-->
+  <!--<li>About Us</li>-->
+  <!--<li>Press</li>-->
+  <!--<li>Philanthropy</li>-->
+  <!--<li>Careers</li>-->
+  <!--<li>Certified Installer Program</li>-->
+<!--</ul>-->
+
+<!--<ul class="support-list" [hidden]="!supportListOpen">-->
+  <!--<li>Product Support</li>-->
+  <!--<li>Order Status</li>-->
+<!--</ul>-->
+
+<!-- TO DO: Add dropdown menu-->
 <!--<div>-->
   <!--<div>-->
     <!--<ul>-->

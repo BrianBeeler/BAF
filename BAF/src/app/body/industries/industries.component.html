@@ -1,7 +1,7 @@
 <div>
   <div *ngFor="let industry of industries;">
     <h3>{{industry.name}}</h3>
-    <div>
+    <div (click)="goToSite(industry.linkUrl)" class="go-to-link">
       <img [src]="industry.imageUrl">
       <p>{{industry.message}}</p>
       <button>Learn More <img class="yellow-button" src="https://s3.amazonaws.com/ba-en-us/global/arrow-black-new.svg" data-original-arrow="https://s3.amazonaws.com/ba-en-us/global/arrow-black-new.svg"/></button>

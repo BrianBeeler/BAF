@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndustriesComponent implements OnInit {
 
+  goToSite = (link) => {
+   window.location.href = link;
+  };
+
   industries = [
     {
       name: 'AGRICULTURE',
