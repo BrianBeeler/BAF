@@ -1,51 +1,23 @@
 <ul class="mini-nav">
   <li>888-604-3714</li>
-  <li (mousenter)="openMenu('company')" (mouseleave)="closeMenu('company')">Company</li>
-  <li (mousenter)="openMenu('support')" (mouseleave)="closeMenu('support')">Support</li>
+  <li (mouseover)="openMenu('company')" (mouseout)="closeMenu('company')">Company
+    <div class="company-list" [hidden]="!companyListOpen">
+      <a>About Us</a>
+      <a>Press</a>
+      <a>Philanthropy</a>
+      <a>Careers</a>
+      <a>Certified Installer Program</a>
+    </div>
+  </li>
+  <li (mouseover)="openMenu('support')" (mouseout)="closeMenu('support')">Support
+    <div class="support-list" [hidden]="!supportListOpen">
+      <a>Product Support</a>
+      <a>Order Status</a>
+    </div>
+  </li>
 </ul>
 
-<!--To Do: Dropdown Menu-->
 
-<!--<ul class="company-list" [hidden]="!companyListOpen">-->
-  <!--<li>About Us</li>-->
-  <!--<li>Press</li>-->
-  <!--<li>Philanthropy</li>-->
-  <!--<li>Careers</li>-->
-  <!--<li>Certified Installer Program</li>-->
-<!--</ul>-->
 
-<!--<ul class="support-list" [hidden]="!supportListOpen">-->
-  <!--<li>Product Support</li>-->
-  <!--<li>Order Status</li>-->
-<!--</ul>-->
 
-<!-- TO DO: Add dropdown menu-->
-<!--<div>-->
-  <!--<div>-->
-    <!--<ul>-->
-      <!--<li>-->
-        <!--<select>-->
-          <!--<option>About Us</option>-->
-          <!--<option>Press</option>-->
-          <!--<option>Philanthropy</option>-->
-          <!--<option>Careers</option>-->
-          <!--<option>Certified Installer Program</option>-->
-        <!--</select>-->
-      <!--</li>-->
-      <!--<li>-->
-        <!--<select>-->
-          <!--<option>Product Support</option>-->
-          <!--<option>Order Status</option>-->
-        <!--</select>-->
-      <!--</li>-->
-      <!--<li>-->
-        <!--<img/>-->
-        <!--<img/>-->
-        <!--<div>-->
-          <!--<img/>-->
-          <!--<span> US/EN</span>-->
-        <!--</div>-->
-      <!--</li>-->
-    <!--</ul>-->
-  <!--</div>-->
-<!--</div>-->
+

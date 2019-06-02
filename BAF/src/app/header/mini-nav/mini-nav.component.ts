@@ -7,6 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MiniNavComponent implements OnInit {
 
+  companyListOpen = false;
+  supportListOpen = false;
+
+  openMenu = (menu) => {
+    if (menu === 'company') {
+      this.companyListOpen = true;
+    } else {
+      this.supportListOpen = true;
+    }
+  };
+
+  closeMenu = (menu) => {
+    if (menu === 'company') {
+      this.companyListOpen = false;
+    } else {
+      this.supportListOpen = false;
+    }
+  };
+
   constructor() { }
 
   ngOnInit() {
